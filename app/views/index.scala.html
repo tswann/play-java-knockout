@@ -6,10 +6,8 @@
     <h2>Data Binding with Play2 + knockout.js</h2>
     <form>
         <div class="form-group">
-            <div>
-                <label>Username:</label>
-                <input type="text" data-bind="value:username"/>
-            </div>
+            <label>Username:</label>
+            <input type="text" data-bind="value:username"/>
         </div>
         <div class="form-group">
             <label>First Name:</label>
@@ -19,7 +17,7 @@
             <label>Last Name:</label>
             <input type="text" data-bind="value: lastName"/>
         </div>
-        <div class="form-group">
+        <div class="alert alert-info" role="alert">
             <label data-bind="text: fullName" />
         </div>
     </form>
