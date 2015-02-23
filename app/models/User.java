@@ -7,4 +7,6 @@ public class User {
 
     public String username;
     public Long id;
+    public String firstName;
+    public String lastName;
 }
